@@ -308,7 +308,6 @@ void readInputFile(char *filename, TrieNode *root) {
 	TrieNode *terminalNode = NULL;	
 	char winner[1026];
 	char inputTest[1026];
-	char buffer[1026];
 	int i = 0;
 	int length;
 	char input[1026];
