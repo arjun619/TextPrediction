@@ -64,7 +64,7 @@ void stripPunctuation(char *inputString) {
 
 //This is the heart of the program, it inserts stuff to the trie.
 void insertToTrie(TrieNode *curr, char *input, int index) {
-	int position, i, j = 0;
+	int position;
 	int length = strlen(input);
 	char next = input[index];
 	char buffer[1026];
